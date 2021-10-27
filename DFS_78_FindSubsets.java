@@ -11,7 +11,7 @@ public class FindSubsets {
     return result;
 }
 
-    private void findSubsets(int[] nums, int index, List<Integer> prefix,                                          List<List<Integer>> result) {
+    private void findSubsets(int[] nums, int index, List<Integer> prefix, List<List<Integer>> result) {
         if (index == nums.length) {
             result.add(new ArrayList<Integer>(prefix));
             return;
