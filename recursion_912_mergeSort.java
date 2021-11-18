@@ -9,7 +9,7 @@ public class mergeSort {
     private int[] mergeSort(int[] nums, int left, int right) {
         if (left == right) {
             return new int[]{nums[left]};
-        }
+        } //易错点，当left right相等时，创建一个新的array并return
         int mid = left + (right - left) / 2;
         int[] leftResult = mergeSort(nums, left, mid);
         int[] rightResult = mergeSort(nums, mid + 1, right);

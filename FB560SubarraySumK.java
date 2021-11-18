@@ -7,7 +7,7 @@ public class FB560SubarraySumK {
         int result = 0;
         int sum = 0;
         HashMap<Integer, Integer> count = new HashMap<>();
-        //one count presum is "0"
+        //one count pre sum is "0"
         count.put(0, 1);
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];

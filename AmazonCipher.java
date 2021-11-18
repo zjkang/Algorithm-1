@@ -1,6 +1,14 @@
+
 public class AmazonCipher {
-    //sample: encrypted = 'VTAOG' k = 2
+    //given a String, and int k, move k steps every element in String clockwise
+    // sample: encrypted = 'VTAOG' k = 2
     //output: 'TRYME'
+    //对String元素做操作，一定要用charAt()
+    //algo:
+    // 1. use StringBuilder to store temp result, cause String is immutable, and return sb.toString
+    // 2. iterate every element in String:
+    //    2.1 for each element in String, use .charAt() to c
+
     public String simpleCipher(String encrypted, int k) {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < encrypted.length(); i++) {
