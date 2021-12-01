@@ -1,5 +1,7 @@
+//http://www.thealmightyguru.com/Wiki/index.php?title=Caesar_cipher
+//https://www.hackerrank.com/challenges/caesar-cipher-1/problem
 
-public class AmazonCipher {
+public class Amazon_01_Caesar_Cipher {
     //given a String, and int k, move k steps every element in String clockwise
     // sample: encrypted = 'VTAOG' k = 2
     //output: 'TRYME'
